@@ -475,16 +475,15 @@ section3 {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+ justify-content: center; 
   background-color: #e7f9fd;
 }
 .part5 > h4 {
   width: 589px;
   height: 58px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-
-  /* padding-top: 80px; */
 }
 .butt7 {
   display: flex;
@@ -493,8 +492,56 @@ section3 {
   border: 1px solid white;
   width: 480px;
   height: 60px;
-   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* footer */
-
+.foot1 {
+  display: flex;
+  flex-direction: column;
+}
+.foot2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000001a;
+  gap: 10px;
+  padding-top: 176px;
+}
+.foot3 > h4 {
+  padding-bottom: 16px;
+  font-size: 24px;
+}
+.foot3 > p {
+  padding-top: 16px;
+  padding-bottom: 92px;
+  color: #00000099;
+  font-size: 16px;
+}
+.list2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 400px;
+  height: 19px;
+  list-style: none;
+  font-weight: bold;
+}
+.downpart1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 54px;
+}
+.list3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.list4 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  width: 133.2px;
+  height: 22px;
+}
